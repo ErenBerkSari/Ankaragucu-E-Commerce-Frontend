@@ -1,0 +1,37 @@
+.header {
+  width: 100vw;
+  height: 73px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  margin-top: 7px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 55px;
+}
+.navbar-link:hover {
+  transition: 0.5s;
+  text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow,
+    0 0 40px yellow;
+}
+.header-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow,
+    0 0 40px yellow;
+}

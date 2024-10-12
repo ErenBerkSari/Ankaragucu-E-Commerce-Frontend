@@ -1,0 +1,51 @@
+.mail-container {
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-form {
+  width: 600px;
+  height: 500px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+#mail-title {
+  width: 550px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: rgb(243, 232, 232);
+  border-radius: 5px;
+  border-bottom: 2px solid darkblue;
+  padding: 5px;
+}
+
+.mail-content {
+  padding: 5px;
+  width: 550px;
+  height: 350px;
+  outline: none;
+  border: none;
+  background-color: rgb(243, 232, 232);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid darkblue;
+}
+.form-title {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  width: 600px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

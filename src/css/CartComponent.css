@@ -1,0 +1,76 @@
+.container-cart {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wtf {
+  height: 700px;
+  max-height: 90vh; /* Taşmayı önlemek için maksimum yüksekliği ayarladım */
+  width: 700px;
+  border: 3px solid #ffff;
+  border-radius: 5px;
+  background-color: #ffff;
+  overflow-y: auto; /* İçerik taşarsa dikey kaydırma ekledim */
+}
+.cart-component-title {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+}
+
+.empty-cart {
+}
+
+.cart-component-ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.cart-component-li {
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.li-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 100px;
+}
+.li-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-quan {
+  margin-right: 10px;
+  border: none;
+  width: 50px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 50px;
+}
+.btn-quan:hover {
+  transition: 0.5s;
+  background-color: rgb(216, 206, 206);
+}
+.li-main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}

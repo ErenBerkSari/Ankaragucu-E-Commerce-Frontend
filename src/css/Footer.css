@@ -1,0 +1,13 @@
+.footer-container {
+  color: aliceblue;
+  width: 100vw;
+  height: 100px;
+  background-color: darkblue;
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 30px yellow;
+}

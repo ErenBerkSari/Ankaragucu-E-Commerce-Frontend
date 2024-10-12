@@ -1,0 +1,25 @@
+.category-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin-top: 5px;
+}
+
+.category {
+  background-color: darkblue;
+  color: aliceblue;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0 50px;
+}
+
+.category:hover {
+  transition: 0.5s;
+  text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow,
+    0 0 40px yellow;
+}
